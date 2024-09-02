@@ -8,7 +8,7 @@ public static void main(String[] args)
         Scanner g = new Scanner(System.in);
         System.out.println("Number of guest: ");
         int guest = g.nextInt();
-        int pricePerGuest = 35;
+        int PRICE_PER_GUEST = 35;
 
         int total =  guest * pricePerGuest;
         System.out.println("***************************************");
